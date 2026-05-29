@@ -1,0 +1,15 @@
+{
+  "apis": [
+    {
+      "host": "api.api-ninjas.com",
+      "secretName": "API_NINJAS_KEY",
+      "injectKind": "header",
+      "pattern": "https://api.api-ninjas.com/",
+      "methods": [
+        "GET"
+      ],
+      "injectName": "X-Api-Key",
+      "description": "API Ninjas tennis live scores and results API"
+    }
+  ]
+}
