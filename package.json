@@ -8,7 +8,6 @@
     "dev": "pnpm --filter @tennis-live/web dev",
     "build": "pnpm --filter @tennis-live/web build",
     "preview": "pnpm --filter @tennis-live/web preview",
-    "typecheck": "pnpm --filter @tennis-live/web exec tsc -b",
-    "test": "pnpm --filter @tennis-live/web test"
+    "typecheck": "pnpm --filter @tennis-live/web exec tsc -b"
   }
 }
